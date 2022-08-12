@@ -6,14 +6,23 @@ export default {
 
 <template lang="pug">
 main
-  a(href="http://google.com", target="_blank", rel="noopener noreferrer") 
+  h2 Hello Nuxt.js
 </template>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 main {
   background: whitesmoke;
-  a {
-    color: red;
+  padding: 10px;
+  h2 {
+    color: rgb(17, 131, 153);
   }
 }
 </style>
