@@ -1,5 +1,3 @@
-# note-app
-
 ## Build Setup
 
 ```bash
