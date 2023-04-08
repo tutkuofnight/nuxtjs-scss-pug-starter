@@ -1,6 +1,9 @@
 @import './colors';
 @import './mixins';
 
+@include space-list;
+@include flexbox;
+
 * {
   margin: 0;
   padding: 0;
